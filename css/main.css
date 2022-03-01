@@ -1,0 +1,95 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+ul {
+    padding: 0px!important;
+}
+
+.menu1 {
+    width: 100%;
+    background-color: #222;
+    height: 70px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;    
+}
+.logo {
+    width: 70%;
+    float: left;
+    margin-top: 10px; 
+}
+.socialmedia ul li{
+    display: inline-block;
+    float: right ;
+    list-style: none;
+    margin-left: 25px  ;
+    margin-top: 2.5px;
+}
+.socialmedia {
+    width: 30%;
+    float: left;
+}
+.header2 {
+    background-color: whitesmoke;
+    width: 980px;
+    margin: 0 auto;   
+}
+.menu-url {
+    border-bottom: 2px solid #222;
+    height: 80px;
+}
+
+.menu2 ul li {
+    display: inline-block;
+    color: grey;
+    margin-left: 15px;
+    padding: 15px;
+}
+.menu2 ul li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.menu2 ul li:hover {
+    color: #222;
+}
+.menu2 ul li a:hover {
+    color: black;
+    border-bottom: 1px solid black
+}
+
+.menu2 {
+    width: 70%;
+    float: left;
+}
+.busca {
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+.busca input {
+    height: 35px;
+    width: 300px;
+    padding: 3px; 
+    margin-top: 20px;
+    font-size: 20px;
+    background-position: 95%;
+    background-repeat: no-repeat;
+    background-image: url( "https://img.icons8.com/ios/30/000000/search--v1.png");
+    border: gray 2px solid;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative ;
+}
+#banner1, #banner2, #banner3 {
+    width: 100%;
+    height: 366px;
+}
